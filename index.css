@@ -1,0 +1,213 @@
+.header {
+    background: #CCD2BB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: Petit Formal Script, Cursive, times;
+    font-size: 36px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.navItems {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'open sans', sans-serif;
+    font-size: 24px;
+}
+
+
+h2 {
+    font-family: 'open sans', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'open sans', sans-serif;
+    font-size: 24px;
+}
+
+.footer {
+    background: #CABAD1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerText {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    font-family: 'arial', sans-serif;
+    font-size: 16;
+}
+
+
+.darkGreen {
+    color: #4E6146;
+}
+
+.darkPurple {
+    color: #785B85;
+}
+
+.greenButton {
+    background-color: #4E6146;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    color: #FEFFFC;
+    width: 190px;
+    height: 60px;
+}
+
+.purpleButton {
+    background-color: #785B85;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    color: #FEFFFC;
+    width: 190px;
+    height: 60px;
+}
+
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    width: 100%;
+    height: 300px;
+    margin-left: 250px;
+    align-content: center;
+    justify-content: center;
+}
+
+.contentBox {
+    height: 300px;
+    width: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.aboutP {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.skillsBox1 {
+    width: 360px;
+    height: 70px;
+    background-color: #CABAD1;
+    padding-bottom: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    grid-area: skillsBox1;
+}
+
+.skillsBox2 {
+    width: 360px;
+    height: 70px;
+    background-color: #CABAD1;
+    padding-bottom: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    grid-area: skillsBox2;
+}
+
+.skillsBox3 {
+    width: 360px;
+    height: 70px;
+    background-color: #CABAD1;
+    padding-bottom: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    grid-area: skillsBox3;
+}
+
+.skillsTitle {
+    grid-area: skillsTitle;
+    text-align: center;
+}
+
+.skillsP {
+    grid-area: skillsP;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.skillsButton {
+    grid-area: skillsButton;
+    text-align: center;
+}
+
+.skillsGrid {
+    display: grid;
+    padding-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "skillsBox1 skillsTitle"
+        "skillsBox2 skillsP"
+        "skillsBox3 skillsButton"
+}
+
+.graphicBox {
+    grid-area: graphicBox;
+    justify-content: center;
+    align-content: center;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.uxBox {
+    grid-area: uxBox;
+    justify-content: center;
+    align-content: center;
+    margin-left: 50px;
+}
+
+.workGrid {
+    display: grid;
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "graphicBox uxBox"
+}
+
+.centerTitle {
+    text-align: center;
+    padding: 20px;
+}
+
+.navAbout {
+    
+}
+
+.navPortfolio {
+
+}
+
+.navContact {
+
+}
+.hover {
+    font-weight: bold;
+    cursor: pointer;
+}
